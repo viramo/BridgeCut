@@ -1,0 +1,224 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		111111111111111111111111 /* BridgeCutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211111111111111111111111 /* BridgeCutApp.swift */; };
+		111111111111111111111112 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211111111111111111111112 /* ContentView.swift */; };
+		111111111111111111111113 /* FCPXMLConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211111111111111111111113 /* FCPXMLConverter.swift */; };
+		111111111111111111111114 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211111111111111111111114 /* Models.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		211111111111111111111110 /* BridgeCut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BridgeCut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		211111111111111111111111 /* BridgeCutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeCutApp.swift; sourceTree = "<group>"; };
+		211111111111111111111112 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		211111111111111111111113 /* FCPXMLConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCPXMLConverter.swift; sourceTree = "<group>"; };
+		211111111111111111111114 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		311111111111111111111111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		411111111111111111111110 = {
+			isa = PBXGroup;
+			children = (
+				411111111111111111111111 /* BridgeCut */,
+				411111111111111111111112 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		411111111111111111111111 /* BridgeCut */ = {
+			isa = PBXGroup;
+			children = (
+				211111111111111111111111 /* BridgeCutApp.swift */,
+				211111111111111111111112 /* ContentView.swift */,
+				211111111111111111111113 /* FCPXMLConverter.swift */,
+				211111111111111111111114 /* Models.swift */,
+			);
+			path = BridgeCut;
+			sourceTree = "<group>";
+		};
+		411111111111111111111112 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				211111111111111111111110 /* BridgeCut.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		511111111111111111111111 /* BridgeCut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 911111111111111111111112 /* Build configuration list for PBXNativeTarget "BridgeCut" */;
+			buildPhases = (
+				611111111111111111111111 /* Sources */,
+				311111111111111111111111 /* Frameworks */,
+				611111111111111111111112 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BridgeCut;
+			productName = BridgeCut;
+			productReference = 211111111111111111111110 /* BridgeCut.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		711111111111111111111111 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					511111111111111111111111 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 911111111111111111111111 /* Build configuration list for PBXProject "BridgeCut" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 411111111111111111111110;
+			productRefGroup = 411111111111111111111112 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				511111111111111111111111 /* BridgeCut */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		611111111111111111111112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		611111111111111111111111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111111111111111111111111 /* BridgeCutApp.swift in Sources */,
+				111111111111111111111112 /* ContentView.swift in Sources */,
+				111111111111111111111113 /* FCPXMLConverter.swift in Sources */,
+				111111111111111111111114 /* Models.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		811111111111111111111111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BridgeCut;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 0.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.viramo.BridgeCut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		811111111111111111111112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BridgeCut;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 0.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.viramo.BridgeCut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		811111111111111111111113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		811111111111111111111114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		911111111111111111111111 /* Build configuration list for PBXProject "BridgeCut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811111111111111111111113 /* Debug */,
+				811111111111111111111114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		911111111111111111111112 /* Build configuration list for PBXNativeTarget "BridgeCut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811111111111111111111111 /* Debug */,
+				811111111111111111111112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 711111111111111111111111 /* Project object */;
+}
