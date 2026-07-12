@@ -8,8 +8,7 @@ struct ContentView: View {
         "Choose an .fcpxml file or an .fcpxmld bundle."
     @State private var changes: [ConversionChange] = []
     @State private var isTargeted = false
-    @State private var includeGenericRoles = false
-
+ 
     private let converter = FCPXMLConverter()
 
     var body: some View {
@@ -24,11 +23,7 @@ struct ContentView: View {
 
             dropArea
 
-            Toggle(
-                "Also rename generic roles such as Dialogue, Music and Effects",
-                isOn: $includeGenericRoles
-            )
-            .toggleStyle(.checkbox)
+               .toggleStyle(.checkbox)
 
             VStack(alignment: .leading, spacing: 8) {
                 Label(
@@ -192,9 +187,8 @@ struct ContentView: View {
 
         do {
             let result = try converter.convert(
-                inputURL: selectedURL,
-                includeGenericRoles: includeGenericRoles
-            )
+                inputURL: selectedURL
+                )
 
             changes = result.changes
             status =
